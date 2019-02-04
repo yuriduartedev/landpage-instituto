@@ -7,6 +7,37 @@ body {
 
 body {
     @include body-font;
+    background: url('../img/background.png'), $theme-secondary;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 30%;
+}
+
+.header-template{
+    margin-top: 7rem;
+}
+
+.radius-header{
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.footer-header{
+    border-radius: 0rem 0rem 1rem 1rem;
+    margin-bottom: 10px;
+}
+
+.img-promocao{
+    width: 100%;
+    float: left;
+}
+
+.img-nadja-fogaca{
+    width: 100%;
+    border-radius: 0 1rem;
 }
 
 a {
@@ -45,7 +76,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 0px 0;
     h2 {
         font-size: 50px;
     }
