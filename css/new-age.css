@@ -15,11 +15,12 @@ body {
   background: url("../img/background.png"), #7b4397;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .logo {
   width: 30%;
+  margin-top: 2%;
 }
 
 .header-template {
@@ -36,13 +37,72 @@ body {
 }
 
 .img-promocao {
-  width: 100%;
+  width: 80%;
   float: left;
+  margin-left: 15%;
 }
 
 .img-nadja-fogaca {
   width: 100%;
   border-radius: 0 1rem;
+}
+
+.section2 {
+  padding: 0% 10% 0% 10%;
+}
+
+.sustentabilidade {
+  font-weight: bold;
+  color: #82bb26;
+  font-size: 1.25em;
+}
+
+.botao {
+  color: #fff;
+  background-color: #82bb26;
+  border-color: #82bb26;
+  border-radius: 300px;
+  letter-spacing: 2px;
+}
+
+.participar {
+  color: #eb9907;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.55rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.numeros {
+  color: #e5be37;
+  font-weight: bold;
+  font-size: 1.55rem;
+}
+
+.p-inline {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-left: 45%;
+  }
+  .img-promocao {
+    margin-top: 10%;
+  }
+  .participar {
+    font-size: 2.55rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .perguntas-frequentes {
+    padding-right: 78px;
+  }
 }
 
 a {
@@ -319,7 +379,7 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0;
+  padding: 5% 0;
   background-image: url("../img/bg-cta.jpg");
   background-position: center;
   background-size: cover;
