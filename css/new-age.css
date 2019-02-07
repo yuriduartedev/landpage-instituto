@@ -87,6 +87,29 @@ body {
   display: inline-flex;
 }
 
+.btn-collapse {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.btn-collapse:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.btn-collapse:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.header-card {
+  background-color: #3FAB37;
+}
+
+.color-show {
+  background-color: #e4eece;
+}
+
 @media (min-width: 768px) {
   .logo {
     margin-left: 45%;
