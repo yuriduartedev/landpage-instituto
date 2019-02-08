@@ -18,9 +18,18 @@ body {
   background-repeat: repeat;
 }
 
+h4, p {
+  font-family: Helvetica;
+}
+
 .logo {
   width: 30%;
   margin-top: 2%;
+}
+
+.logo1 {
+  width: 20%;
+  margin-left: 3%;
 }
 
 .header-template {
@@ -37,7 +46,7 @@ body {
 }
 
 .img-promocao {
-  width: 80%;
+  width: 90%;
   float: left;
   margin-left: 15%;
 }
@@ -63,6 +72,19 @@ body {
   border-color: #82bb26;
   border-radius: 300px;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.mr-auto {
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 .participar {
@@ -88,6 +110,7 @@ body {
 }
 
 .btn-collapse {
+  text-align: left !important;
   color: #FFF;
   text-decoration: none;
 }
