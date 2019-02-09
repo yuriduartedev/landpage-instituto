@@ -7,7 +7,7 @@ body {
 
 body {
     @include body-font;
-    background: url('../img/background.png'), $theme-secondary;
+    background: url('images/background.png'), $theme-secondary;
     background-position: center;
     background-size: cover;
     background-repeat: repeat;

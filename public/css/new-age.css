@@ -12,7 +12,7 @@ body {
 
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
-  background: url("../img/background.png"), #7b4397;
+  background: url("images/background.png"), #7b4397;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
