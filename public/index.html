@@ -21,7 +21,9 @@
     <!-- Custom styles for this template -->
     <link href="css/new-age.min.css" rel="stylesheet">
     <script language="javascript" type="text/javascript">
-      document.location="https:" + window.location.href.substring(window.location.protocol.length, window.location.href.length);
+      if(window.location.protocol != 'https:') {
+        location.href = location.href.replace("http://", "https://");
+      }
     </script>
   </head>
   <body id="page-top" class="pt-1">
